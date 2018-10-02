@@ -16,8 +16,12 @@
     "styleguide:build": "styleguidist build && mv styleguide docs"
   },
   "devDependencies": {
+    "pre-commit": "1.2.2",
     "prettier": "1.14.3",
     "react-styleguidist": "7.3.8",
     "webpack": "3.8.1"
-  }
+  },
+  "pre-commit": [
+    "styleguide:build"
+  ]
 }

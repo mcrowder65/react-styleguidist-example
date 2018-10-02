@@ -12,6 +12,9 @@ class Button extends React.Component {
     text: PropTypes.string.isRequired,
     onClick: PropTypes.func.isRequired
   };
+  static defaultProps = {
+    onClick: () => alert("pickles are gross!")
+  };
   render() {
     return <button onClick={this.props.onClick}>{this.props.text}</button>;
   }
