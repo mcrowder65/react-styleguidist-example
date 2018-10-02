@@ -1,1 +1,1 @@
-This is an example of using react-styleguidist
+https://mcrowder65.github.io/react-styleguidist-example/
